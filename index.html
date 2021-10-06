@@ -462,15 +462,17 @@
         <form action="#">
           <div class="form-fied">
             <label for="user-name" class="form-fied-text">Имя</label>
-            <input
-              type="text"
-              name="user-name"
-              id="user-name"
-              class="form-input"
-            />
-            <svg class="input-icon" width="12" height="12">
-              <use href="./images/icons.svg#icon-Vector"></use>
-            </svg>
+            <span class="input-wrapper">
+              <input
+                type="text"
+                name="user-name"
+                id="user-name"
+                class="form-input"
+              />
+              <svg class="input-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-Vector"></use>
+              </svg>
+            </span>
           </div>
           <div class="form-fied">
             <label for="user-tel" class="form-fied-text">Телефон</label>
@@ -488,15 +490,17 @@
           </div>
           <div class="form-fied">
             <label for="user-email" class="form-fied-text">Почта</label>
-            <input
-              type="text"
-              name="user-email"
-              id="user-email"
-              class="form-input"
-            />
-            <svg class="input-icon" width="15" height="12">
-              <use href="./images/icons.svg#icon-Vector-3"></use>
-            </svg>
+            <span class="input-wrapper">
+              <input
+                type="text"
+                name="user-email"
+                id="user-email"
+                class="form-input"
+              />
+              <svg class="input-icon" width="15" height="12">
+                <use href="./images/icons.svg#icon-Vector-3"></use>
+              </svg>
+            </span>
           </div>
           <div class="form-fied">
             <label for="user-comment" class="form-fied-text">Комментарий</label>
@@ -506,10 +510,25 @@
               class="form-text"
               placeholder="Введите текст"
             ></textarea>
-            <svg class="input-icon" width="16" height="15">
-              <use href="./images/icons.svg#icon-Vector-4"></use>
-            </svg>
           </div>
+          <input
+            type="checkbox"
+            class="form-checkbox visually-hidden "
+            name="policy"
+            id="policy"
+          />
+          <label for="policy" class="check-text">
+            <span class="check-item">
+              <svg class="check-icon" width="16" height="15">
+                <use href="./images/icons.svg#icon-Vector-4"></use>
+              </svg>
+            </span>
+            Соглашаюсь с рассылкой и принимаю
+            <a href="">Условия договора</a>
+          </label>
+          <button type="submit" class="btn form-btn">
+            Отправить
+          </button>
         </form>
       </div>
     </div>
