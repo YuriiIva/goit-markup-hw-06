@@ -557,7 +557,54 @@ body {
 .futer-right-item:not(:last-child) {
   margin-right: 10px;
 }
+.futer-right {
+  margin-right: 93px;
+}
 
+.futer-form-connect {
+  display: flex;
+  justify-content: space-between;
+ 
+  position: relative;
+}
+.futer-label {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-white-color);
+  margin-bottom: 20px;
+}
+.futer-form-email {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+}
+.futer-form-connect > .btn-futer {
+  width: 200px;
+  display: block;
+  background: var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--title-white-color);
+position: relative;
+}
+
+.form-futer-icon {
+  position: absolute;
+  right: 37px;
+  top: 13px;
+}
 /*--------------- Portfolio ------------*/
 
 /*----------- Button ---------*/
@@ -572,9 +619,9 @@ body {
   color: var(--bgr-color);
   border-radius: 4px;
   cursor: pointer;
-  transition: color 250 ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250 ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250 ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-item {
@@ -664,6 +711,9 @@ body {
 .main-example-text {
   margin: 20px 24px;
 }
+
+
+
 
 /* --------Modal--------- */
 
