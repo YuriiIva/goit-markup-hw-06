@@ -832,7 +832,7 @@ position: relative;
   border: 1px solid var(--title-text-color);
 }
 
-.form-checkbox:checked + .check-text .check-icon {
+.form-checkbox:checked + .check-text .check-item {
   background-color: var(--accent-color);
   border-color: transparent;
 }
